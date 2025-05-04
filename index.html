@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Weather Dashboard - Avn</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="card glass">
+      
+      <!-- Top bar -->
+      <div class="top-bar">
+        <div class="search-bar">
+          <input type="text" id="searchInput" placeholder="Search City">
+          <button onclick="searchCity()">🔍</button>
+        </div>
+        <button id="toggle-theme">🌙</button>
+      </div>
+
+      <!-- Location and Date -->
+      <div class="location-date">
+        <div class="location">📍 Paris</div>
+        <div class="date">Sun, 04 May</div>
+      </div>
+
+      <!-- Main weather section -->
+      <div class="weather-main">
+        <div class="weather-icon">☀️</div>
+        <div class="temp">17°C</div>
+        <div class="condition">Clear</div>
+      </div>
+
+      <!-- Weather details -->
+      <div class="details">
+        <div class="humidity">💧 Humidity<br><strong>75%</strong></div>
+        <div class="wind">🌬️ Wind Speed<br><strong>1.54 M/s</strong></div>
+      </div>
+
+      <!-- Forecast -->
+      <div class="forecast">
+        <div class="forecast-day">May 05<br>🌤️<br>24°C</div>
+        <div class="forecast-day">May 06<br>🌞<br>29°C</div>
+        <div class="forecast-day">May 07<br>🌤️<br>30°C</div>
+        <div class="forecast-day">May 08<br>🌧️<br>21°C</div>
+        <div class="forecast-day">May 09<br>⛅<br>26°C</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Credit with bunny -->
+  <div class="credit-container">
+    <img src="images/760779d3-7bbd-4a12-b1a7-2dfa2840968b.jpeg" alt="Cute Bunny" class="bunny">
+    <p class="credit">✨ Avn's weather app!! ✨</p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
